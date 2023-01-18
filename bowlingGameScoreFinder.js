@@ -2,29 +2,19 @@ const inputOne = [3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6]
 let score = 0;
 
 
-function createFrames(inputOne) {
+// function createFrames(inputOne) {
 
-    index = 0;
-    const frames = {
+//     index = 0;
+//     const frames = {
 
-        'Frame 1': [inputOne[index], inputOne[index + 1]],
-        'Frame 2': [inputOne[index], inputOne[index + 1]],
-        'Frame 3': [inputOne[index], inputOne[index + 1]],
-        'Frame 4': [inputOne[index], inputOne[index + 1]],
-        'Frame 5': [inputOne[index], inputOne[index + 1]],
-        'Frame 6': [inputOne[index], inputOne[index + 1]],
-        'Frame 7': [inputOne[index], inputOne[index + 1]],
-        'Frame 8': [inputOne[index], inputOne[index + 1]],
-        'Frame 9': [inputOne[index], inputOne[index + 1]],
-        'Frame 10': [inputOne[index], inputOne[index + 1]]
+//         'Frame 1': [inputOne[index], inputOne[index + 1]],
+//         
+
+//     }
+//     return frames
 
 
-    }
-
-    return frames
-
-
-}
+// }
 
 function findBowlingGameScore(inputOne) {
     if (inputOne.length < 20) {
