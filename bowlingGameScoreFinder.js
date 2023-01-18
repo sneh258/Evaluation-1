@@ -36,7 +36,7 @@ function findBowlingGameScore(inputOne) {
         }
 
         if (inputOne[index] == 10) {
-            score = inputOne[index + 1] + inputOne[index + 2];
+            score = 10 + inputOne[index + 1] + inputOne[index + 2];
             index++;
         }
 
