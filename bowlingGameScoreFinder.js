@@ -47,5 +47,5 @@ function findBowlingGameScore(inputOne) {
 }
 
 console.log(findBowlingGameScore(inputOne));
-console.log(createFrames(inputOne));
+//console.log(createFrames(inputOne));
 module.exports = { findBowlingGameScore };
